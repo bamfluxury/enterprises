@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAMF_Lux - Luxury Jerseys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.jpg" type="image/png">
+</head>
+<body>
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/2348060702662" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.jpg" alt="BAMF_Lux Logo" class="logo">
+                <span class="brand-name">BAMF_Lux</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cart.html" class="cart-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slideshow">
+            <div class="hero-slide active" style="background-image: url('images/ceo3.JPG');"></div>
+            <div class="hero-slide" style="background-image: url('images/greengirl.JPG');"></div>
+            <div class="hero-slide" style="background-image: url('images/greengirl2.JPG');"></div>
+            <div class="hero-slide" style="background-image: url('images/ceo2.JPG');"></div>
+            <div class="hero-slide" style="background-image: url('images/pinkgirl.JPG');"></div>
+            <div class="hero-slide" style="background-image: url('images/greenguy.JPG');"></div>
+        </div>
+        <div class="hero-content">
+            <h1>BOLD & MAGNIFICENT</h1>
+            <p>Premium jerseys for those who demand excellence</p>
+            
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" id="shop">
+        <div class="container">
+            <h2 class="section-title">OUR COLLECTION</h2>
+            <h3>Swipe Images</h3>
+            <div class="products-grid">
+
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/whiteaquarius1.JPG" alt="BAMF AQUARIUS Front" class="active">
+                        <img src="images/whiteaquerius2.JPG" alt="BAMF AQUARIUS Back" class="hidden">
+                        <img src="images/whiteaquarius3.JPG" alt="BAMF AQUARIUS Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF AQUARIUS</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="8" data-name="BAMF AQUARIUS" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/pinkpices1.JPG" alt="BAMF PISCES Front" class="active">
+                        <img src="images/pinkpices2.JPG" alt="BAMF PISCES Back" class="hidden">
+                        <img src="images/pinkpices3.JPG" alt="BAMF PISCES Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF PISCES</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="3" data-name="BAMF PISCES" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/whitearies1.JPG" alt="BAMF ARIES Front" class="active">
+                        <img src="images/whitearies2.JPG" alt="BAMF ARIES Back" class="hidden">
+                        <img src="images/whitearies3.JPG" alt="BAMF ARIES Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF ARIES</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="9" data-name="BAMF ARIES" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/whiteyellowtarus1.JPG" alt="BAMF TAURUS Front" class="active">
+                        <img src="images/whiteyellowtarus2.JPG" alt="BAMF TAURUS Back" class="hidden">
+                        <img src="images/whiteyellowtarus3.JPG" alt="BAMF TAURUS Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF TAURUS</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="12" data-name="BAMF TAURUS" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/gemin1.JPG" alt="BAMF GEMINI Front" class="active">
+                        <img src="images/gemin2.JPG" alt="BAMF GEMINI Back" class="hidden">
+                        <img src="images/gemin3.JPG" alt="BAMF GEMINI Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF GEMINI</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="2" data-name="BAMF GEMINI" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/whitecancer1.JPG" alt="BAMF CANCER Front" class="active">
+                        <img src="images/whitecancer2.JPG" alt="BAMF CANCER Back" class="hidden">
+                        <img src="images/whitecancer3.JPG" alt="BAMF CANCER Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF CANCER</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="10" data-name="BAMF CANCER" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/redwhiteleo1.JPG" alt="BAMF LEO Front" class="active">
+                        <img src="images/redwhiteleo2.JPG" alt="BAMF LEO Back" class="hidden">
+                        <img src="images/redwhiteleo3.JPG" alt="BAMF LEO Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF LEO</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="5" data-name="BAMF LEO" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/pinkvirgo1.JPG" alt="BAMF VIRGO Front" class="active">
+                        <img src="images/pinkvirgo2.JPG" alt="BAMF VIRGO Back" class="hidden">
+                        <img src="images/pinkvirgo3.JPG" alt="BAMF VIRGO Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF VIRGO</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="4" data-name="BAMF VIRGO" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/redwhitelibra1.JPG" alt="BAMF LIBRA Front" class="active">
+                        <img src="images/redwhitelibra2.JPG" alt="BAMF LIBRA Back" class="hidden">
+                        <img src="images/redwhitelibra3.JPG" alt="BAMF LIBRA Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF LIBRA</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="6" data-name="BAMF LIBRA" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/whiteyellowscopio.JPG" alt="BAMF SCORPIO Front" class="active">
+                        <img src="images/whiteyellowscorpio2.JPG" alt="BAMF SCORPIO Back" class="hidden">
+                        <img src="images/whiteyellowscorpio3.JPG" alt="BAMF SCORPIO Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF SCORPIO</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="11" data-name="BAMF SCORPIO" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 11 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/segratus1.JPG" alt="BAMF SAGITTARIUS Front" class="active">
+                        <img src="images/segratus2.JPG" alt="BAMF SAGITTARIUS Back" class="hidden">
+                        <img src="images/segratus3.JPG" alt="BAMF SAGITTARIUS Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF SAGITTARIUS</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="7" data-name="BAMF SAGITTARIUS" data-price="100000">ADD TO CART</button>
+                </div>
+
+                <!-- Product 12 -->
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="images/greencapricon1.JPG" alt="BAMF CAPRICORN Front" class="active">
+                        <img src="images/greencapricon2.JPG" alt="BAMF CAPRICORN Back" class="hidden">
+                        <img src="images/greencapricon3.JPG" alt="BAMF CAPRICORN Detail" class="hidden">
+                        <div class="image-controls">
+                            <button class="prev-image"><i class="fas fa-chevron-left"></i></button>
+                            <button class="next-image"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <h3>BAMF CAPRICORN</h3>
+                    <p class="price">₦100,000</p>
+                    <button class="add-to-cart" data-id="1" data-name="BAMF CAPRICORN" data-price="100000">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>READY TO MAKE A STATEMENT?</h2>
+            <p>Join the BAMF movement and elevate your style with our premium jerseys</p>
+            <a href="#shop" class="btn">SHOP THE COLLECTION</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <div class="logo-container">
+                    <img src="images/logo.jpg" alt="BAMF Enterprises Logo" class="logo">
+                    <span class="brand-name">BAMF ENTERPRISES</span>
+                </div>
+                <p>Bold And Magnificent - Redefining sports fashion with premium quality jerseys.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 19 Victor Ikwemesi Idado Estate, Lekki, Lagos, Nigeria</li>
+                    <li><i class="fas fa-phone"></i> +234 806 070 2662</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="https://instagram.com/bamf_lux" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 BAMF_Lux. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
